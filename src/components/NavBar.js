@@ -11,8 +11,8 @@ function NavBar() {
           <img
             src="https://media.tenor.com/REo804et_s0AAAAM/totoro.gif"
             alt="Totoro"
-            width="30" // Puedes ajustar el ancho de la imagen según lo necesites
-            height="30" // Puedes ajustar la altura de la imagen según lo necesites
+            width="30"
+            height="30"
           />
           Tienda Totoro
         </a>
