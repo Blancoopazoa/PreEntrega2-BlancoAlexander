@@ -1,4 +1,3 @@
-// ItemListContainer.js
 import React, { useEffect, useState } from 'react';
 import './ItemListContainer.css';
 import { getProducts, getProductsByCategory } from '../../dataJson';
@@ -10,8 +9,7 @@ const ItemListContainer = ({ greeting }) => {
   const { categoryId } = useParams()
 
   useEffect(() => {
-    const asyncFunc = categoryId ? getProductsByCategory : getProducts
-    //getProducts() 
+    const asyncFunc = categoryId ? getProductsByCategory : getProducts 
     asyncFunc(categoryId)
 
       .then(response => {

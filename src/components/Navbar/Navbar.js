@@ -16,12 +16,6 @@ const Navbar = () => {
         </div>
         <div className='CartWidget'>
           <CartWidget />
-          <img
-            src="https://media.tenor.com/REo804et_s0AAAAM/totoro.gif"
-            alt="Totoro"
-            width="30"
-            height="30"
-          />
         </div>
       </nav >
   );
